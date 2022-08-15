@@ -15,7 +15,7 @@ Follow the comments in the script.
 
 Please let me know, if it works for you.
 
-This can also easily taken for other boards running Marlin as a starting point.
+This can also easily be taken for other boards running Marlin as a starting point.
 
 ellensp gave me an example. Thanks a lot. I'm not a programmer!
 
