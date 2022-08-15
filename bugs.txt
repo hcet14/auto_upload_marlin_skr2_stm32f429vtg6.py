@@ -1,0 +1,9 @@
+Known bugs:
+SDcard could not be written:
+Well, it's not a bug in my script, but it happened to me once. The permissions of SDcard screwed up, I don't know why (script could not write firmware.bin to SDcard) 
+This is the fix:
+sudo chown -hR <user> <path of SDcard>
+sudo chmod -R 777 <path of SDcard>
+sudo mount --options remount,rw <path of SDcard>
+
+I have no clue how to implement this in the script. Any help of an experienced programmer is appreciated!
