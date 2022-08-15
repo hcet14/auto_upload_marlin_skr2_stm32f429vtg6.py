@@ -1,5 +1,5 @@
 # auto_upload_marlin_skr2_stm32f429vtg6.py
-Auto upload script for Marlin built with Auto Build Marlin for Bigtreetech BTT SKR 2 under Ubuntu
+Auto upload script for Auto Build Marlin to upload firmware.bin to Bigtreetech BTT SKR 2
 
 This python script uploads the newly build firmware automatically to your SKR 2.
 
