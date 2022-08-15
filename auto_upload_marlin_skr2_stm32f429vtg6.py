@@ -38,13 +38,13 @@
 #
 #	IMPORTANT: Before you start, you have to do five tasks! 
 #
-#   	Task one: Insert path of your SDCARD in SKR 2 (important entries in this python script are marked with 'hcet14')!
+#   		Task one: Insert path of your SDCARD in SKR 2 (important entries in this python script are marked with 'hcet14')!
 #
-#   	Task two: Copy this script to /root//buildroot/share/PlatformIO/scripts/ (/root/ = top directory in Visual Studio Code)!
+#   		Task two: Copy this script to /root//buildroot/share/PlatformIO/scripts/ (/root/ = top directory in Visual Studio Code)!
 #    
 #		Task three: Copy stm32f4.ini to /root/ini (or change marked entries with 'hcet14')!   	
 #    
-#   	Task four: Check your platformio.ini for 'default_envs = BIGTREE_SKR_2_F429_USB'!
+#   		Task four: Check your platformio.ini for 'default_envs = BIGTREE_SKR_2_F429_USB'!
 #
 #		Task five: Make sure your SDCARD is mounted!
 #	
