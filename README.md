@@ -11,6 +11,8 @@ You just have to click in ABM panel here:
 
 Follow the comments in the script.
 
+Read bugs.txt!
+
 Please let me know, if it works for you.
 
 This can also easily be taken for other boards running Marlin as a starting point.
