@@ -1,6 +1,6 @@
 Known bugs:
   
-1. SDcard could not be written:
+SDcard could not be written:
     Error in ABM: OSError: [Errno 30] Read-only file system: '<path of SDcard>':
     Well, it's not a bug in my script, but it happens to me sometimes. The permissions of SDcard screwed up, I don't know why (script can not write, delete, or remame files on SDcard) 
     This is the fix:
