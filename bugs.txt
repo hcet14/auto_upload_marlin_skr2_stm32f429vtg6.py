@@ -14,5 +14,9 @@ Known bugs:
   
     Error in ABM: *** [upload] /media/hcet/CPOC/firmware.bin: Read-only file system
     Do above fix again.  
+    
+If the script did run once, it will behave stable until you boot your PC again.
+
+Maybe doing an entry in fstab for the SDcard of SKR 2 is a fix (didn't try yet).
 
 I have no clue how to implement this in the script. It's caused by the mounting process of my Ubuntu. I guess every other linux installation will behave different. Any help of an experienced programmer is appreciated!
