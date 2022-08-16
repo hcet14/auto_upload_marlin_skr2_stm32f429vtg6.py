@@ -4,6 +4,7 @@ Known bugs:
     Error in ABM: OSError: [Errno 30] Read-only file system: '<path of SDcard>':
     Well, it's not a bug in my script, but it happens to me sometimes. The permissions of SDcard screwed up, I don't know why (script can not write, delete, or remame files on SDcard) 
     This is the fix:
+    Close all open file managers.
     sudo fdisk -l, look for the path of your SDcard, for me /dev/sdc1 for example
     sudo chown -hR <user> <path of SDcard>, for me sudo chown -hR user /dev/sdc1
     sudo chmod -R 777 <path of SDcard>, for me sudo chmod -R 777 /dev/sdc1 
@@ -12,6 +13,6 @@ Known bugs:
     You can also use the script sdcard_permissions.sh (change the path to your SDcard)!
   
     Error in ABM: *** [upload] /media/hcet/CPOC/firmware.bin: Read-only file system
-    Close all open file managers and do above fix again.  
+    Do above fix again.  
 
 I have no clue how to implement this in the script. It's caused by the mounting process of my Ubuntu. I guess every other linux installation will behave different. Any help of an experienced programmer is appreciated!
