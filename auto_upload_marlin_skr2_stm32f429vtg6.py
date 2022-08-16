@@ -46,7 +46,7 @@
 #    
 #   		Task four: Check your platformio.ini for 'default_envs = BIGTREE_SKR_2_F429_USB'!
 #
-#		Task five: Make sure your SDCARD is mounted!
+#		Task five: Make sure your SDCARD is mounted with read/write permissions!
 #	
 #	Be aware! You use this on your own risk! 
 #	
@@ -54,7 +54,7 @@
 #
 ###################################################################################################################################
 
-# Version_220710
+# Version_220816
 # licensed under GPLv3
 
 from __future__ import print_function
