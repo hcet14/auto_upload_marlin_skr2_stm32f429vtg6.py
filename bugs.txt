@@ -2,7 +2,7 @@ Known bugs:
   
 1. SDcard could not be written:
     Error in ABM: OSError: [Errno 30] Read-only file system: '<path of SDcard>':
-    Well, it's not a bug in my script, but it happens to me sometimes. The permissions of SDcard screwed up, I don't know why (script can not write, delete,    or remame files on SDcard) 
+    Well, it's not a bug in my script, but it happens to me sometimes. The permissions of SDcard screwed up, I don't know why (script can not write, delete, or remame files on SDcard) 
     This is the fix:
     sudo fdisk -l, look for the path of your SDcard, for me /dev/sdc1 for example
     sudo chown -hR <user> <path of SDcard>, for me sudo chown -hR hcet /dev/sdc1
